@@ -647,6 +647,21 @@ body {
 	bottom: 21px;
 	right: -12px
 }
+.intro--banner span {
+	background-color: #51A747;
+	padding: 5px 5px;
+	border-radius: 5px;
+	font-size: 18px;
+}
+.intro--banner span a {
+	color: #FFFFFF;
+}
+.intro--banner span a:hover {
+	color: #2DD3A2;
+}
+.intro--banner span a:active {
+	color: #B23FDD;
+}
 .intro--options {
 	display: -webkit-box;
 	display: -webkit-flex;

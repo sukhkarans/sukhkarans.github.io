@@ -113,7 +113,7 @@ hr {
 }
 .popup iframe {
 	width: 100%;
-	height: 40vh;
+	height: 315px;
 }
 .open-popup {
 	visibility: visible;

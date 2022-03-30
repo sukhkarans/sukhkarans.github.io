@@ -50,6 +50,10 @@ header .profilePhoto {
 	clear: both;
 	display: inline-flex;
 }
+/* Main Content */
+.mainContent {
+	display: block;
+}
 .didYouKnow{
 	text-align: justify;
 	display: block;
@@ -91,8 +95,36 @@ hr {
 	color: #2BAF43;	
 	text-decoration: underline;
 }
-.mainContent {
-	display: block;
+.ytcontainer h3 {
+	margin-top: -25px;
+	color: white;
+}
+.ytcontainer h3:hover {
+	color: red;
+}
+.ytcontainer h3:active {
+	color: red;
+}
+.popup {
+	height: 0;
+	visibility: hidden;
+	transform: scale(0.1);
+	transition: transform 0.4s, top 0.4s;
+}
+.popup iframe {
+	width: 100%;
+	height: 40vh;
+}
+.open-popup {
+	visibility: visible;
+	transform: scale(1);
+	height: 18em;	
+}
+.closebtn {
+	font-weight: 700;
+	font-size: 20px;
+	color: #C3C3C3;
+	margin: 0 0 5px 10px;
 }
 /* Footer */
 .footerKey {

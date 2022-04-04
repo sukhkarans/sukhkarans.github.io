@@ -126,6 +126,12 @@ hr {
 	color: #C3C3C3;
 	margin: 0 0 5px 10px;
 }
+.car-banner img {
+	width: 100%;
+}
+.car-banner p {
+	margin: -5px 0 0 10px;
+}
 /* Footer */
 .footerKey {
 	font-size: 12px;
